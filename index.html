@@ -1,24 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ejemplo básico de HTML y CSS</title>
-    <style>
-      /* Estilos CSS para el encabezado */
-      header {
-        background-color: #84d8b7;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Encabezado HTML -->
-    <header>
-      <h1>Bienvenido a mi página web</h1>
-    </header>
-    
-    <!-- Contenido de la página -->
-    <p>Este es un ejemplo básico de cómo se puede utilizar HTML y CSS juntos para crear una página web simple con código creado por ChatGPT.</p>
-  </body> 
+<head>
+<title>Mi Portafolio Personal</title>
+<style>
+    /* Reset de estilos para el body */
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+    padding: 50px;
+    background-color: #F2E9E1;
+    }
+
+    #inicio img {
+    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    }
+
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+    padding: 50px;
+    background-color: #BCC8D6;
+    }
+
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+    padding: 50px;
+    background-color: #A6AECC;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    padding: 50px;
+    background-color: #9F93B2;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    }
+  </style>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<section id="inicio">
+<img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Imagen de cabecera">
+<h1>Nombre Apellido</h1>
+<p>Breve descripción sobre ti y tus intereses profesionales.</p>
+</section>
+
+<section id="habilidades">
+<h2>Habilidades</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Otras habilidades relevantes</li>
+</ul>
+</section>
+
+<section id="proyectos">
+<h2>Proyectos</h2>
+<ul>
+<li>Nombre del Proyecto 1</li>
+<li>Nombre del Proyecto 2</li>
+<li>Nombre del Proyecto 3</li>
+
+</ul>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<p>Puedes contactarme a través de los siguientes medios:</p>
+<ul>
+<li>Email: tu@email.com</li>
+<li>Teléfono: +123456789</li>
+<li>Redes sociales: enlace a tus perfiles en redes sociales</li>
+</ul>
+</section>
+
+</body>
 </html>

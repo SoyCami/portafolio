@@ -17,16 +17,25 @@
     font-weight: bold;
     }
 
+    h1{
+        margin-bottom: 20px;
+    }
+
     /* Estilos para la sección de inicio */
     #inicio {
     padding: 50px;
     background-color: #F2E9E1;
+    text-align: center;
+
     }
 
     #inicio img {
     width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
     height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
     border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
 
 
@@ -69,15 +78,42 @@
     font-size: 16px;
     color: #333;
     }
+
+    p {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+     /* Estilos para los elementos de lista */
+     li {
+      display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+      margin-right: 10px; /* Espaciado entre los elementos de lista */
+    }
+
   </style>
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
 <section id="inicio">
-<img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Imagen de cabecera">
-<h1>Nombre Apellido</h1>
-<p>Breve descripción sobre ti y tus intereses profesionales.</p>
+    <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Imagen de cabecera">
+    <h1>Maria Camila Bohórquez</h1>
+    <p>Estudiante de programación web apasionada por la creación de sitios web atractivos y funcionales. Me apasiona el mundo del diseño y la tecnología, y me he dedicado a fortalecer mis habilidades en lenguajes como HTML, CSS y JavaScript para lograr el mejor resultado en cada uno de mis proyectos..</p>
+    <ul>
+
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+
+    </ul>
 </section>
 
 <section id="habilidades">
@@ -112,3 +148,4 @@
 
 </body>
 </html>
+
